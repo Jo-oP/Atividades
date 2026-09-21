@@ -2,8 +2,8 @@ import { StatusBar } from 'expo-status-bar';
 import { Text, View, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
-import { styles } from './styles';
-import Botao from '../../components/Botao';
+import { styles } from './Home/styles';
+import Botao from '../components/Botao';
 
 export default function Hub() {
   return (
@@ -27,10 +27,12 @@ export default function Hub() {
           <Botao titulo="Atividade 8 (Map)" onPress={() => router.push('/Atividade 08-Map')} />
           <Botao titulo="Atividade 9 (FlatList)" onPress={() => router.push('/Atividade 09-Flatlist')} />
           <Botao titulo="Atividade 9 (Map)" onPress={() => router.push('/Atividade 09-Map')} />
-          <Botao titulo="Atividade 10 (Navegação - Jogos)" onPress={() => router.push('/Atividade 10-Navegacao')} />
+          <Botao titulo="Atividade 10 (Navegação - Filmes)" onPress={() => router.push('/Atividade 10-Navegacao')} />
+          <Botao titulo="Atividade Adega (Navegação Tabs)" onPress={() => router.push('/Atividade Adega')} />
         </View>
         <View style={{ height: 30 }} />
       </ScrollView>
     </SafeAreaView>
   );
 }
+
