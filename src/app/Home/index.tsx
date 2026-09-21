@@ -27,7 +27,7 @@ export default function Hub() {
           <Botao titulo="Atividade 8 (Map)" onPress={() => router.push('/Atividade 08-Map')} />
           <Botao titulo="Atividade 9 (FlatList)" onPress={() => router.push('/Atividade 09-Flatlist')} />
           <Botao titulo="Atividade 9 (Map)" onPress={() => router.push('/Atividade 09-Map')} />
-          <Botao titulo="Atividade 10 (Navegação - Jogos)" onPress={() => router.push('/Atividade 10-Navegacao')} />
+          <Botao titulo="Atividade 10 (Navegação - Filmes)" onPress={() => router.push('/Atividade 10-Navegacao')} />
         </View>
         <View style={{ height: 30 }} />
       </ScrollView>
